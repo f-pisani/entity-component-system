@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ECS" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="debug/ECS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="src" />
+					<Add directory="src/" />
+					<Add directory="benchmarks" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="release/ECS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add directory="src" />
+					<Add directory="src/" />
+					<Add directory="benchmarks" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="benchmarks/Benchmark.cpp" />
+		<Unit filename="benchmarks/Benchmark.hpp" />
+		<Unit filename="benchmarks/BenchmarkECS_Component.cpp" />
+		<Unit filename="benchmarks/BenchmarkECS_Component.hpp" />
+		<Unit filename="benchmarks/BenchmarkECS_Entity.cpp" />
+		<Unit filename="benchmarks/BenchmarkECS_Entity.hpp" />
+		<Unit filename="benchmarks/BenchmarkECS_System.cpp" />
+		<Unit filename="benchmarks/BenchmarkECS_System.hpp" />
+		<Unit filename="ecs.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/BaseComponent.cpp" />
+		<Unit filename="src/BaseComponent.hpp" />
+		<Unit filename="src/BaseSystem.cpp" />
+		<Unit filename="src/BaseSystem.hpp" />
+		<Unit filename="src/Common.hpp" />
+		<Unit filename="src/Component.cpp" />
+		<Unit filename="src/Component.hpp" />
+		<Unit filename="src/ComponentManager.cpp" />
+		<Unit filename="src/ComponentManager.hpp" />
+		<Unit filename="src/Entity.cpp" />
+		<Unit filename="src/Entity.hpp" />
+		<Unit filename="src/EntityManager.cpp" />
+		<Unit filename="src/EntityManager.hpp" />
+		<Unit filename="src/Requirement.cpp" />
+		<Unit filename="src/Requirement.hpp" />
+		<Unit filename="src/System.cpp" />
+		<Unit filename="src/System.hpp" />
+		<Unit filename="src/SystemManager.cpp" />
+		<Unit filename="src/SystemManager.hpp" />
+		<Unit filename="src/World.cpp" />
+		<Unit filename="src/World.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

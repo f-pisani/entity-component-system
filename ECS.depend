@@ -1,0 +1,185 @@
+# depslib dependency file v1.0
+1432058070 source:p:\c++\[framework] got no brains\ecs\main.cpp
+	<iostream>
+	<vector>
+	<thread>
+	"benchmarks/BenchmarkECS_Entity.hpp"
+	"benchmarks/BenchmarkECS_Component.hpp"
+	"benchmarks/BenchmarkECS_System.hpp"
+
+1428724213 source:p:\c++\[framework] got no brains\ecs\src\component.cpp
+	"Component.hpp"
+
+1431236719 p:\c++\[framework] got no brains\ecs\src\component.hpp
+	"Common.hpp"
+	"BaseComponent.hpp"
+
+1431423882 source:p:\c++\[framework] got no brains\ecs\src\componentmanager.cpp
+	"ComponentManager.hpp"
+	"EntityManager.hpp"
+
+1431423882 p:\c++\[framework] got no brains\ecs\src\componentmanager.hpp
+	<algorithm>
+	<unordered_map>
+	<vector>
+	<typeinfo>
+	"Common.hpp"
+	"Component.hpp"
+	"Requirement.hpp"
+
+1429766978 source:p:\c++\[framework] got no brains\ecs\src\entity.cpp
+	"Entity.hpp"
+	"EntityManager.hpp"
+
+1429766978 p:\c++\[framework] got no brains\ecs\src\entity.hpp
+	<unordered_map>
+	"Common.hpp"
+	"ComponentManager.hpp"
+
+1429805064 source:p:\c++\[framework] got no brains\ecs\src\entitymanager.cpp
+	"EntityManager.hpp"
+
+1429661469 p:\c++\[framework] got no brains\ecs\src\entitymanager.hpp
+	<unordered_map>
+	<vector>
+	"Common.hpp"
+	"Entity.hpp"
+
+1429507775 source:p:\c++\[framework] got no brains\ecs\src\system.cpp
+	"System.hpp"
+
+1429804667 p:\c++\[framework] got no brains\ecs\src\system.hpp
+	"Common.hpp"
+	"BaseSystem.hpp"
+
+1429633050 source:p:\c++\[framework] got no brains\ecs\src\world.cpp
+	"World.hpp"
+
+1429633050 p:\c++\[framework] got no brains\ecs\src\world.hpp
+	"Common.hpp"
+	"EntityManager.hpp"
+	"SystemManager.hpp"
+
+1426747829 source:p:\c++\[framework] got no brains\ecs\src\componentmapper.cpp
+	"ComponentMapper.hpp"
+
+1426747829 p:\c++\[framework] got no brains\ecs\src\componentmapper.hpp
+
+1426751847 p:\c++\[framework] got no brains\ecs\src\uuid.hpp
+
+1426787229 p:\c++\[framework] got no brains\ecs\forwarddeclaration.hpp
+
+1429508275 p:\c++\[framework] got no brains\ecs\src\common.hpp
+
+1431238818 source:p:\c++\[framework] got no brains\ecs\src\systemmanager.cpp
+	"SystemManager.hpp"
+
+1431236187 p:\c++\[framework] got no brains\ecs\src\systemmanager.hpp
+	<map>
+	<vector>
+	"Common.hpp"
+	"EntityManager.hpp"
+	"System.hpp"
+
+1429680024 source:p:\c++\[framework] got no brains\ecs\benchmarks\benchmark.cpp
+	"Benchmark.hpp"
+
+1429593996 p:\c++\[framework] got no brains\ecs\benchmarks\benchmark.hpp
+	<iostream>
+	<fstream>
+	<unordered_map>
+	<vector>
+	<ratio>
+	<chrono>
+	"../ecs.hpp"
+
+1428133441 source:p:\c++\[framework] got no brains\ecs\benchmarks\benchinsertremoveentity.cpp
+	"BenchInsertRemoveEntity.hpp"
+
+1428029650 p:\c++\[framework] got no brains\ecs\benchmarks\benchinsertremoveentity.hpp
+	"Benchmark.hpp"
+	"../src/ecs.hpp"
+
+1428029724 p:\c++\[framework] got no brains\ecs\src\ecs.hpp
+	"World.hpp"
+	"EntityManager.hpp"
+	"ComponentManager.hpp"
+	"SystemManager.hpp"
+	"Entity.hpp"
+	"Component.hpp"
+	"System.hpp"
+
+1428133607 p:\c++\[framework] got no brains\ecs\benchmarks\benchinsertremovecomponent.hpp
+	"Benchmark.hpp"
+	"../src/ecs.hpp"
+
+1428132544 source:p:\c++\[framework] got no brains\ecs\benchmarks\benchinsertremovecomponent.cpp
+	"BenchInsertRemoveComponent.hpp"
+
+1429978863 source:p:\c++\[framework] got no brains\ecs\benchmarks\benchmarkecs_component.cpp
+	"BenchmarkECS_Component.hpp"
+
+1429158940 p:\c++\[framework] got no brains\ecs\benchmarks\benchmarkecs_component.hpp
+	"Benchmark.hpp"
+	"../ecs.hpp"
+
+1429246704 source:p:\c++\[framework] got no brains\ecs\benchmarks\benchmarkecs_entity.cpp
+	"BenchmarkECS_Entity.hpp"
+
+1429158978 p:\c++\[framework] got no brains\ecs\benchmarks\benchmarkecs_entity.hpp
+	"Benchmark.hpp"
+	"../ecs.hpp"
+
+1429159000 p:\c++\[framework] got no brains\ecs\benchmarks\benchmarkecs_system.hpp
+	"Benchmark.hpp"
+	"../ecs.hpp"
+
+1429667584 source:p:\c++\[framework] got no brains\ecs\benchmarks\benchmarkecs_system.cpp
+	"BenchmarkECS_System.hpp"
+	"BenchmarkECS_Component.hpp"
+
+1428856609 source:p:\c++\[framework] got no brains\ecs\src\smartcast.cpp
+	"SmartCast.hpp"
+
+1428856628 p:\c++\[framework] got no brains\ecs\src\smartcast.hpp
+
+1428853202 p:\c++\[framework] got no brains\ecs\ecs.hpp
+	"src/World.hpp"
+	"src/EntityManager.hpp"
+	"src/ComponentManager.hpp"
+	"src/SystemManager.hpp"
+	"src/Entity.hpp"
+	"src/Component.hpp"
+	"src/System.hpp"
+
+1431238362 p:\c++\[framework] got no brains\ecs\src\basesystem.hpp
+	<vector>
+	<typeinfo>
+	<typeindex>
+	<unordered_map>
+	"Entity.hpp"
+	"Requirement.hpp"
+
+1431238351 source:p:\c++\[framework] got no brains\ecs\src\basesystem.cpp
+	"BaseSystem.hpp"
+
+1429500551 source:p:\c++\[framework] got no brains\ecs\src\requirement.cpp
+	"Requirement.hpp"
+
+1431239449 p:\c++\[framework] got no brains\ecs\src\requirement.hpp
+	<iostream>
+	<vector>
+	<typeinfo>
+
+1429511308 p:\c++\[framework] got no brains\ecs\src\system.cpp
+
+1431238269 p:\c++\[framework] got no brains\ecs\src\basecomponent.hpp
+	<iostream>
+	<typeinfo>
+	<typeindex>
+	<unordered_map>
+	"Common.hpp"
+
+1431238282 source:p:\c++\[framework] got no brains\ecs\src\basecomponent.cpp
+	"BaseComponent.hpp"
+
