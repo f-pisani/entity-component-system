@@ -1,0 +1,126 @@
+# Build directories
+build/
+debug/
+release/
+bin/
+obj/
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+ECS
+
+# IDE specific files
+# Code::Blocks
+*.cbp
+*.depend
+*.layout
+*_build_log.html
+
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vs/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+*build-*
+
+# Qt specific
+*.qm
+*.prl
+
+# SFML specific (if using CMake)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Benchmark outputs
+*.csv
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Core dumps
+core
+core.*
+*.core
+
+# Dependencies
+*.d
+
+# Profiling
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+
+# Documentation
+doxygen/
+html/
+latex/
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
